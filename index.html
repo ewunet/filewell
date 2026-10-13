@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Filewell: a UX/UI concept prototype for a tax return customer portal.">
+  <title>Filewell | Tax return portal prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-action="skip">Skip to main content</a>
+
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="#/">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12.5l4 4L18 8"/></svg>
+        </span>
+        Filewell
+      </a>
+      <button class="btn-reset" type="button" data-action="reset">Reset demo</button>
+    </header>
+
+    <aside class="sidebar">
+      <a class="brand" href="#/">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12.5l4 4L18 8"/></svg>
+        </span>
+        Filewell
+      </a>
+
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li>
+            <a href="#/" data-nav="home">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11l8-7 8 7"/><path d="M6 10v10h12V10"/></svg>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#/send" data-nav="send">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg>
+              Send documents
+            </a>
+          </li>
+          <li>
+            <a href="#/design-system" data-nav="system">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></svg>
+              Design system
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="sidebar__foot">
+        <p>Concept prototype. Filewell is a fictional company.</p>
+        <button class="btn-reset" type="button" data-action="reset">Reset demo</button>
+      </div>
+    </aside>
+
+    <main id="main" class="main" tabindex="-1">
+      <div id="view"></div>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
