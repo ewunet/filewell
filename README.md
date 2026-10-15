@@ -2,8 +2,8 @@
 
 A UX/UI concept prototype for a customer-facing web app that helps people send tax documents to their preparer, track their return, and approve it for filing.
 
-**Live prototype:** [add your GitHub Pages or Netlify link here]
-**Figma file:** [add your Figma link here]
+**Live prototype:** https://filewell.netlify.app
+**Figma file:** https://www.figma.com/board/gyVTTlmoaZkM4zEK7F6NRs/Untitled?node-id=0-1&t=RmfaNXak8Nuj677x-1
 
 > Concept project. Filewell is a fictional company, and all names and numbers are made up. Not affiliated with the IRS or any tax preparation business.
 
